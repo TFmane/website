@@ -1,0 +1,145 @@
+* {
+  /*border: 1px solid black;*/
+  margin: auto;
+}
+
+body {
+  width: 1000px;
+  height: 900px;
+  background: linear-gradient(#c5301a, yellow);
+}
+
+ul {
+  list-style-type: none;
+  background-color: #c5301a;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  padding: 0;
+  margin: 2%;
+}
+
+li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px;
+  background-color: coral;
+}
+
+a {
+  transition: all 1s ease;
+}
+
+a:hover {
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+a:active {
+	box-shadow: 0px 2px 9px rgba(44,31,60,1), 9px 3px 6px rgba(0,0,0,.9);
+}
+
+/*main*/
+.main {
+  background-color: #a9301a;
+  height: 70%;
+}
+
+
+/*About us*/
+.h2info, h1, h2{
+  font-size: 3em;
+  color: gold;
+  text-shadow: -1px -1px green,
+  -1px 1px chocolate,
+  1px -1px coral,
+  1px 1px purple;
+}
+
+.info, p{
+  font-size: 2.7em;
+  color: yellow;
+  text-shadow: -1px -1px green,
+  -1px 1px chocolate,
+  1px -1px coral,
+  1px 1px purple;
+}
+
+/*To top button*/
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color:  #0c08f3;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+#myBtn:hover {
+	background-color: #0c087a;
+}
+
+/*shop*/
+
+table, th, td {
+  border: 1px solid black;
+  box-shadow: 1px 2px 2px black;
+  text-align: center;
+  background-color: grey;
+}
+
+table {
+    width: 100%;
+	margin-top: 20px;
+}
+
+caption {
+  color: #cdcd32;
+  text-shadow: -1px -1px 0 green,
+  1px -1px 0 pink,
+  -1px 1px 0 blue,
+  1px 1px 0 purple;
+  font-size: 3.5em;
+}
+
+/*footer*/
+footer {
+  width: 90%;
+  height: 18%;
+  background-color: crimson;
+}
+
+.fa {
+	width: 40px;
+	height: 40px;
+	font-size: 3em;
+	text-decoration: none;
+	text-align: center;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

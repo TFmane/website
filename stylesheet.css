@@ -165,8 +165,29 @@ footer {
   }
 }
 
-@media screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) {
   li a {
-    background: linear-gradient(to left, #ff7f40, ce7f50);
+    background: linear-gradient(to right, #1a65ff, #001781);
+	/*006eff*/
+	color: red;
+	font-size: 1.4em;
+	text-shadow: 1px 1px 1px black;
+	box-shadow: 2px 1px 3px black;
+  }
+  
+  ul{
+    background: #1a65ff;
+  }
+  
+  body {
+    background: linear-gradient(dodgerblue, green);
+  }
+  
+  .main {
+    background-color: #5c74ca;
+  }
+  
+  footer {
+    background-color: #4cbd12;
   }
 }

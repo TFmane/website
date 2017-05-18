@@ -33,17 +33,6 @@ li a {
   background-color: coral;
 }
 
-@media screen and (max-width: 800px) {
-  li a{
-    background: linear-gradient(#ff7f50, #ce7f50);
-	border-radius: 20px;
-  }
-  
-  li a:hover {
-    background: linear-gradient(#ce7f50, #ff7f50);
-  }
-}
-
 a {
   transition: all 1s ease;
 }
@@ -161,4 +150,23 @@ footer {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+
+/*Mobile look*/
+@media screen and (max-width: 800px) {
+  li a{
+    background: linear-gradient(#ff7f50, #ce7f50);
+	border-radius: 20px;
+  }
+  
+  li a:hover {
+    background: linear-gradient(#ce7f50, #ff7f50);
+  }
+}
+
+@media screen and (orientation: landscape) {
+  li a {
+    background: linear-gradient(to left, #ff7f40, ce7f50);
+  }
 }

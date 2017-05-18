@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 
+
 body {
 
   height: 2000px;
   background: linear-gradient(#c5301a, yellow);
 }
+
 
 ul {
   list-style-type: none;
@@ -16,11 +18,7 @@ ul {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 500px) {
-    body {
-        background-color: lightblue;
-    }
-}
+
 
 li {
   float: left;
@@ -33,6 +31,17 @@ li a {
   text-decoration: none;
   padding: 20px;
   background-color: coral;
+}
+
+@media screen and (max-width: 800px) {
+  li a{
+    background: linear-gradient(#ff7f50, #ce7f50);
+	border-radius: 20px;
+  }
+  
+  li a:hover {
+    background: linear-gradient(#ce7f50, #ff7f50);
+  }
 }
 
 a {
@@ -64,6 +73,7 @@ a:active {
   -1px 1px chocolate,
   1px -1px coral,
   1px 1px purple;
+  text-align: center;
 }
 
 .info, p{
@@ -73,6 +83,7 @@ a:active {
   -1px 1px chocolate,
   1px -1px coral,
   1px 1px purple;
+  text-align: center;
 }
 
 /*To top button*/

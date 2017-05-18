@@ -1,10 +1,11 @@
 * {
   /*border: 1px solid black;*/
   margin: auto;
+  box-sizing: border-box;
 }
 
 body {
-  width: 1000px;
+
   height: 2000px;
   background: linear-gradient(#c5301a, yellow);
 }
@@ -13,6 +14,12 @@ ul {
   list-style-type: none;
   background-color: #c5301a;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
 }
 
 li {

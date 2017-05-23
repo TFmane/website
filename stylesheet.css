@@ -7,7 +7,7 @@
 
 body {
 
-  height: 2000px;
+  height: 3000px;
   background: linear-gradient(#c5301a, yellow);
 }
 
@@ -39,17 +39,18 @@ a {
 
 a:hover {
   background-color: lightgray;
-  border-radius: 20px;
+  /*border-radius: 20px;*/
 }
 
 a:active {
+    transition: all 1s ease;
 	box-shadow: 0px 2px 9px rgba(44,31,60,1), 9px 3px 6px rgba(0,0,0,.9);
 }
 
 /*main*/
 .main {
   background-color: #a9301a;
-  height: 70%;
+  height: auto;
   width: 80%;
 }
 
@@ -166,13 +167,32 @@ footer {
 }
 
 @media only screen and (orientation: landscape) {
-  li a {
+  .verted {
     background: linear-gradient(to right, #1a65ff, #001781);
 	/*006eff*/
 	color: red;
 	font-size: 1.4em;
 	text-shadow: 1px 1px 1px black;
+	box-shadow: -2px 1px 3px black;
+  }
+  
+  .verted:hover {
+    background: linear-gradient(to right, #001781, #1a65ff);
 	box-shadow: 2px 1px 3px black;
+  }
+  
+  .inverted {
+    background: linear-gradient(to right, #001781, #1a65ff);
+	/*006eff*/
+	color: red;
+	font-size: 1.4em;
+	text-shadow: 1px 1px 1px black;
+	box-shadow: 2px 1px 3px black;
+  }
+  
+  .inverted:hover {
+    background: linear-gradient(to right, #1a65ff, #001781);
+	box-shadow: -2px 1px 3px black;
   }
   
   ul{
@@ -181,10 +201,24 @@ footer {
   
   body {
     background: linear-gradient(dodgerblue, green);
+	height: 5000px;
   }
   
   .main {
     background-color: #5c74ca;
+  }
+  
+  .buttons {
+    width: 50%;
+	height: 60%;
+	padding: 40px;
+  }
+  
+  .button {
+    width: 10%;
+	height: 20%;
+	padding: 10px;
+	margin-bottom: 20px;
   }
   
   footer {

@@ -48,7 +48,87 @@
 	  </tr>
 	  </table>
 	</div>
+	<!--<div class="shop">
+     <div class="imgdiv"><img src="img/linkonhorse.jpg" id="myImg" alt="Zelda BoTW Link riding on a horse" width="400px" height="200px"></img></div>
+     <div class="imgdiv"><img src="img/linkatwedding.jpg" id="myImg" alt="Zelda BoTW Link attending a wedding" width="400px" height="200px"></img></div>
+   </div>-->
+
+<!--The modal
+<div id="myModal" class="modal">
+  <span class="close">x</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>-->
+
+ <div class="row">
+  <div class="column preview">
+    <img src="img/linkonhorse.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column preview">
+    <img src="img/linkatwedding.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column preview">
+    <img src="img/linkatdestination.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column preview">
+    <img src="img/linkatshrine.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
 </div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+        <img src="img/linkonhorse.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+        <img src="img/linkatwedding.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+        <img src="img/linkatdestination.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+        <img src="img/linkatshrine.jpg" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/linkonhorse.jpg" onclick="currentSlide(1)" alt="Link riding on his horse in, BotW">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/linkatwedding.jpg" onclick="currentSlide(2)" alt="Link attends Hudsons and Rhondsons wedding, BotW">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/linkatdestination.jpg" onclick="currentSlide(3)" alt="Link arrives at his destination, BotW">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="img/linkatshrine.jpg" onclick="currentSlide(4)" alt="Link enters a shrine, BotW">
+    </div>
+  </div>
+</div> 
+
+
+
+</div>
+
+
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
 <footer>

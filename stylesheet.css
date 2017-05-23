@@ -7,7 +7,7 @@
 
 body {
 
-  height: 3000px;
+  height: 5000px;
   background: linear-gradient(#c5301a, yellow);
 }
 
@@ -50,7 +50,7 @@ a:active {
 /*main*/
 .main {
   background-color: #a9301a;
-  height: auto;
+  height: 90%;
   width: 80%;
 }
 
@@ -155,20 +155,86 @@ footer {
 
 /*testing area*/
 .buttons {
-    width: 50%;
-	height: 60%;
+    width: 70%;
+	height: 80%;
 	padding: 40px;
   }
   
   .button {
     width: auto;
-	height: 20%;
+	height: 1.4%;
 	padding: 10px;
 	margin-bottom: 20px;
 	outline: none;
 	text-decoration: none;
 	border: none;
+	background-color: red;
   }
+  
+  .trippy {
+    background: linear-gradient(135deg,
+	rgba(54,123,27,1) 0%,
+	rgba(1,213,255,1) 10%,
+	rgba(54,123,27,1) 20%,
+	rgba(1,213,255,1) 30%,
+	rgba(54,123,27,1) 40%,
+	rgba(1,213,255,1) 50%,
+	rgba(54,123,27,1) 60%,
+	rgba(1,213,255,1) 70%,
+	rgba(54,123,27,1) 80%,
+	rgba(1,213,255,1) 90%,
+	rgba(54,123,27,1) 100%);
+  }
+  
+  .trippy:hover {
+    background: linear-gradient(45deg,
+	rgba(1,213,255,1) 0%,
+	rgba(54,123,27,1) 10%,
+	rgba(1,213,255,1) 20%,
+	rgba(54,123,27,1) 30%,
+	rgba(1,213,255,1) 40%,
+	rgba(54,123,27,1) 50%,
+	rgba(1,213,255,1) 60%,
+	rgba(54,123,27,1) 70%,
+	rgba(1,213,255,1) 80%,
+	rgba(54,123,27,1) 90%,
+	rgba(1,213,255,1) 100%);
+  }
+  
+  .spiral {
+    width: 80%;
+	height: 20%;
+    background: radial-gradient(ellipse at center,
+	rgba(248,80,50,1) 0%,
+	rgba(255,201,216,1) 10%,
+	rgba(248,80,50,1) 20%,
+	rgba(255,201,216,1) 30%,
+	rgba(248,80,50,1) 40%,
+	rgba(255,201,216,1) 50%,
+	rgba(248,80,50,1) 60%,
+	rgba(255,201,216,1) 70%,
+	rgba(248,80,50,1) 80%,
+	rgba(255,201,216,1) 90%,
+	rgba(248,80,50,1) 100%);
+  }
+
+  .spiral:hover {
+    background: radial-gradient(ellipse at center,
+	rgba(255,201,216,1) 0%,
+	rgba(248,80,50,1) 10%,
+	rgba(255,201,216,1) 20%,
+	rgba(248,80,50,1) 30%,
+	rgba(255,201,216,1) 40%,
+	rgba(248,80,50,1) 50%,
+	rgba(255,201,216,1) 60%,
+	rgba(248,80,50,1) 70%,
+	rgba(255,201,216,1) 80%,
+	rgba(248,80,50,1) 90%,
+	rgba(255,201,216,1) 100%);
+  }  
+  
+  
+  
 
 .verted {
     background: linear-gradient(to right, #1a65ff, #001781);
@@ -245,7 +311,7 @@ footer {
   
   body {
     background: linear-gradient(dodgerblue, green);
-	height: 5000px;
+	
   }
   
   .main {

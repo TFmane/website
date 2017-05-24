@@ -126,6 +126,46 @@ footer {
   background-color: crimson;
 }
 
+  .footermenu {
+    background-color: green;
+  }
+  
+  .footerul {
+    background-color: green;
+  }
+  
+  .button1, .button3 {
+    border-radius: 50%;
+	background-color: lightgreen;
+  }
+  
+  .button2, .button4 {
+    border-radius: 30%;
+	background-color: firebrick;
+  }
+  
+  .button1:hover {
+    border-radius: 50% 25% 2% 16%;
+	font-size: 2em;
+  }
+  
+  .button2:hover {
+    box-shadow: -3px 3px 4px black;
+	font-size: 2em;
+  }
+  
+  .button3:hover {
+    background: linear-gradient(to right, lightgreen, dodgerblue);
+	font-size: 2em;
+  }
+  
+  .button4:hover {
+    border-radius: 20% 0% 30% 10%;
+	box-shadow: 2px 2px 1px black;
+	font-size: 2em;
+  }
+  
+
 .fa {
 	width: 40px;
 	height: 40px;
@@ -347,9 +387,13 @@ footer {
     background-color: #5c74ca;
   }
   
+  /*Footer content*/
   footer {
     background-color: #4cbd12;
   }
+  
+  
+  
 }
 
 

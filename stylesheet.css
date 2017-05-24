@@ -160,6 +160,14 @@ footer {
 	padding: 40px;
   }
   
+  .suround {
+    background-color: white;
+	padding: 20px;
+	height: auto;
+	margin: 10px;
+	box-shadow: 2px 2px 5px black;
+  }
+  
   .button {
     width: auto;
 	height: 1.4%;
@@ -232,6 +240,27 @@ footer {
 	rgba(248,80,50,1) 90%,
 	rgba(255,201,216,1) 100%);
   }  
+  
+  .switch {
+    background: linear-gradient(to top, gray, white);
+	box-shadow: 2px 4px 3px black;
+	border: none;
+	transition: all 0.1s ease;
+  }
+  
+  .on, .off {
+    color: red;
+	text-decoration: none;
+	text-shadow: none;
+  }
+  
+  
+  .switch:hover {
+	background: linear-gradient(to bottom, gray, white);
+	box-shadow: -2px -4px 3px black;
+  }
+  
+
   
   
   

@@ -333,6 +333,12 @@ footer {
 	box-shadow: -2px 1px 3px black;
   }
   
+  .borderimg {
+    border: 10px solid transparent;
+	padding: 15px;
+	border-image: url(img/border.png) 100 round;
+  }
+  
 /*Mobile look*/
 @media screen and (max-width: 800px) {
   li a{
